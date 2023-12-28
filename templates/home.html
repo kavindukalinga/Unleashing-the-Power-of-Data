@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #007bff;
+        }
+
+        h2, h3 {
+            color: #495057;
+            margin-top: 30px;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            border-spacing: 0;
+            border: 1px solid #dee2e6;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        th {
+            background-color: #007bff;
+            color: #ffffff;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Data Processing</h1>
+
+        <!-- Display the first 10 rows of the DataFrame in a table -->
+        <h2>DataFrame Preview</h2>
+        {{ table | safe }}
+        <a href="/wholeData" class="btn btn-primary mt-3">See more</a>
+
+        <!-- Statistics buttons -->
+        <h3>Statistics</h3>
+        <div class="row">
+            <div class="col-md-3">
+                <a href="/count" class="btn btn-info">Count</a>
+            </div>
+            <div class="col-md-3">
+                <a href="/minTime" class="btn btn-info">minTime</a>
+            </div>
+            <div class="col-md-3">
+                <a href="/maxTime" class="btn btn-info">maxTime</a>
+            </div>
+            <div class="col-md-3">
+                <a href="/totalTime" class="btn btn-info">totalTime</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
