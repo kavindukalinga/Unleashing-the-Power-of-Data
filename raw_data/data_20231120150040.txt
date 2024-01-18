@@ -1,0 +1,313 @@
+---------------------------------------
+jboss.j2ee:ear=lcc-app-engine.ear,jar=lcc-engine-maxico-1.0-SNAPSHOT.jar,name=SearchAndQuoteServiceBean,service=EJB3
+StateString=Started
+CreateCount=5232
+CurrentSize=796
+RemoveCount=4436
+State=3
+InvokeStats=<InvocationStatistics concurrentCalls='46' >
+<method name='removeBlockSeat' count='253' minTime='3' maxTime='10551' totalTime='178735' />
+<method name='searchAvailableFlights' count='1635200' minTime='3' maxTime='408170' totalTime='860749910' />
+<method name='searchAllAvailableFaresForSegment' count='101' minTime='32' maxTime='3060' totalTime='42696' />
+<method name='getGroundSegmentData' count='1775' minTime='3' maxTime='37393' totalTime='80159' />
+<method name='checkOnholdAvailability' count='102864' minTime='18' maxTime='5526' totalTime='3521578' />
+<method name='changeFares' count='56' minTime='290' maxTime='32211' totalTime='103949' />
+<method name='quoteFlightPrice' count='1154513' minTime='3' maxTime='505956' totalTime='2309100306' />
+<method name='blockSeat' count='1895' minTime='3' maxTime='13199' totalTime='468975' />
+</InvocationStatistics>
+AvailableCount=-16
+MaxSize=30
+Name=StatelessDelegateWrapper
+---------------------------------------
+jboss.j2ee:ear=lcc-app-engine.ear,jar=lcc-engine-maxico-1.0-SNAPSHOT.jar,name=AlertingServiceBean,service=EJB3
+StateString=Started
+CreateCount=1
+CurrentSize=1
+RemoveCount=0
+State=3
+InvokeStats=<InvocationStatistics concurrentCalls='0' >
+<method name='addAlerts' count='1' minTime='23' maxTime='23' totalTime='23' />
+</InvocationStatistics>
+AvailableCount=30
+MaxSize=30
+Name=StatelessDelegateWrapper
+---------------------------------------
+jboss.j2ee:ear=lcc-app-engine.ear,jar=lcc-engine-master-1.0-SNAPSHOT.jar,name=UserManagementServiceBean,service=EJB3
+StateString=Started
+CreateCount=0
+CurrentSize=0
+RemoveCount=0
+State=3
+InvokeStats=<InvocationStatistics concurrentCalls='0' >
+</InvocationStatistics>
+AvailableCount=30
+MaxSize=30
+Name=StatelessDelegateWrapper
+---------------------------------------
+jboss.j2ee:ear=lcc-app-engine.ear,jar=lcc-engine-maxico-1.0-SNAPSHOT.jar,name=MasterDataPublisherServiceBean,service=EJB3
+StateString=Started
+CreateCount=564
+CurrentSize=563
+RemoveCount=1
+State=3
+InvokeStats=<InvocationStatistics concurrentCalls='0' >
+<method name='publishUserInfo' count='1145' minTime='86' maxTime='180332' totalTime='4892336' />
+<method name='publishAirlineRoute' count='162' minTime='0' maxTime='2281' totalTime='38072' />
+<method name='publishOndCombinations' count='3' minTime='19538' maxTime='20346' totalTime='59460' />
+<method name='publishMasterData' count='2' minTime='219' maxTime='243' totalTime='462' />
+</InvocationStatistics>
+AvailableCount=30
+MaxSize=30
+Name=StatelessDelegateWrapper
+---------------------------------------
+jboss.j2ee:ear=lcc-app-engine.ear,jar=lcc-engine-maxico-1.0-SNAPSHOT.jar,name=AncillaryServiceBean,service=EJB3
+StateString=Started
+CreateCount=783
+CurrentSize=782
+RemoveCount=1
+State=3
+InvokeStats=<InvocationStatistics concurrentCalls='10' >
+<method name='getAvailableAncillaries' count='57305' minTime='459' maxTime='310944' totalTime='186453417' />
+<method name='getAncillaryDetail' count='305701' minTime='9' maxTime='267557' totalTime='312476616' />
+<method name='getSelectedAncillaryDetails' count='18318' minTime='4' maxTime='165396' totalTime='16640425' />
+<method name='getAnciTaxApplicability' count='11261' minTime='16' maxTime='1341' totalTime='228526' />
+<method name='releaseSeats' count='731' minTime='3' maxTime='5215' totalTime='175928' />
+<method name='blockSeats' count='2744' minTime='2' maxTime='31697' totalTime='1272479' />
+<method name='modifyAncillaries' count='653' minTime='476' maxTime='51916' totalTime='3644517' />
+</InvocationStatistics>
+AvailableCount=20
+MaxSize=30
+Name=StatelessDelegateWrapper
+---------------------------------------
+jboss.j2ee:ear=lcc-app-engine.ear,jar=lcc-engine-maxico-1.0-SNAPSHOT.jar,name=UserAgentServiceBean,service=EJB3
+StateString=Started
+CreateCount=767
+CurrentSize=767
+RemoveCount=0
+State=3
+InvokeStats=<InvocationStatistics concurrentCalls='0' >
+<method name='invalidateAASessionsForUser' count='15644' minTime='23' maxTime='181667' totalTime='1951912' />
+</InvocationStatistics>
+AvailableCount=30
+MaxSize=30
+Name=StatelessDelegateWrapper
+---------------------------------------
+jboss.j2ee:ear=lcc-app-engine.ear,jar=lcc-engine-master-1.0-SNAPSHOT.jar,name=MenuDataServiceBean,service=EJB3
+StateString=Started
+CreateCount=0
+CurrentSize=0
+RemoveCount=0
+State=3
+InvokeStats=<InvocationStatistics concurrentCalls='0' >
+</InvocationStatistics>
+AvailableCount=30
+MaxSize=30
+Name=StatelessDelegateWrapper
+---------------------------------------
+jboss.j2ee:ear=lcc-app-engine.ear,jar=lcc-engine-interlining-1.0-SNAPSHOT.jar,name=InterlineMasterServiceBean,service=EJB3
+StateString=Started
+CreateCount=3606094
+CurrentSize=3605798
+RemoveCount=296
+State=3
+InvokeStats=<InvocationStatistics concurrentCalls='1' >
+<method name='getExchangeRatesForDates' count='355' minTime='2' maxTime='23' totalTime='1565' />
+<method name='retriveInterlineRouteByONDAirlineCodes' count='1549388' minTime='1' maxTime='30055' totalTime='3295243' />
+<method name='getInterlineAgreementIdList' count='11468151' minTime='0' maxTime='44931' totalTime='27582590' />
+<method name='getActiveInterlineRoutesForOnD' count='1855810' minTime='1' maxTime='2926' totalTime='3924155' />
+<method name='getInterlineRoute' count='14963' minTime='1' maxTime='261' totalTime='22300' />
+<method name='getInterlineFareList' count='37435' minTime='0' maxTime='455' totalTime='87785' />
+<method name='getInterlineAgreements' count='353' minTime='12' maxTime='3401' totalTime='178839' />
+<method name='getInterlineExRate' count='5996675' minTime='0' maxTime='35696' totalTime='15457017' />
+<method name='getOpenCarrierParcitipatingAirlines' count='1349008' minTime='1' maxTime='2119' totalTime='2293569' />
+<method name='getInterlineRuleForAgreement' count='1145' minTime='3' maxTime='85' totalTime='4766' />
+<method name='getRCLoginEnabledFromInterlineAgreement' count='94' minTime='1' maxTime='1070' totalTime='19840' />
+<method name='getAllAirlineCodesInAgreements' count='3' minTime='1' maxTime='2' totalTime='4' />
+<method name='getInterlineIntegrationAgency' count='4829113' minTime='1' maxTime='29283' totalTime='67228077' />
+<method name='retriveInterlineAgreementByID' count='513' minTime='10' maxTime='62' totalTime='6463' />
+<method name='getActiveInterlineRoutesForAgreements' count='3' minTime='25' maxTime='27' totalTime='77' />
+</InvocationStatistics>
+AvailableCount=29
+MaxSize=30
+Name=StatelessDelegateWrapper
+---------------------------------------
+jboss.j2ee:ear=lcc-app-engine.ear,jar=lcc-engine-maxico-1.0-SNAPSHOT.jar,name=LoyaltyManagementServiceBean,service=EJB3
+StateString=Started
+CreateCount=460
+CurrentSize=460
+RemoveCount=0
+State=3
+InvokeStats=<InvocationStatistics concurrentCalls='1' >
+<method name='customerNameUpdate' count='16' minTime='119' maxTime='3283' totalTime='19629' />
+<method name='getLoyaltyRedeemableAmounts' count='757' minTime='5' maxTime='4991' totalTime='537685' />
+<method name='getMergeLoyaltyAccount' count='8' minTime='880' maxTime='4119' totalTime='28317' />
+</InvocationStatistics>
+AvailableCount=29
+MaxSize=30
+Name=StatelessDelegateWrapper
+---------------------------------------
+jboss.j2ee:ear=lcc-app-engine.ear,jar=lcc-engine-maxico-1.0-SNAPSHOT.jar,name=FlightServiceBean,service=EJB3
+StateString=Started
+CreateCount=883
+CurrentSize=733
+RemoveCount=150
+State=3
+InvokeStats=<InvocationStatistics concurrentCalls='1' >
+<method name='getFlightManifestData' count='191' minTime='197' maxTime='12135' totalTime='320891' />
+<method name='getLccSegmentInfo' count='2579261' minTime='0' maxTime='174299' totalTime='64610497' />
+<method name='searchFlightsForManifest' count='872' minTime='14' maxTime='3651' totalTime='315033' />
+<method name='getLccFlightSegment' count='1907149' minTime='4' maxTime='177558' totalTime='98227379' />
+</InvocationStatistics>
+AvailableCount=29
+MaxSize=30
+Name=StatelessDelegateWrapper
+---------------------------------------
+jboss.j2ee:ear=lcc-app-engine.ear,jar=lcc-engine-master-1.0-SNAPSHOT.jar,name=AirportMasterServiceBean,service=EJB3
+StateString=Started
+CreateCount=3689417
+CurrentSize=3689414
+RemoveCount=3
+State=3
+InvokeStats=<InvocationStatistics concurrentCalls='0' >
+<method name='getAirport' count='3800576' minTime='0' maxTime='35026' totalTime='4520810' />
+</InvocationStatistics>
+AvailableCount=30
+MaxSize=30
+Name=StatelessDelegateWrapper
+---------------------------------------
+jboss.j2ee:ear=lcc-app-engine.ear,jar=lcc-engine-master-1.0-SNAPSHOT.jar,name=AirlineMasterServiceBean,service=EJB3
+StateString=Started
+CreateCount=2315968
+CurrentSize=2315809
+RemoveCount=159
+State=3
+InvokeStats=<InvocationStatistics concurrentCalls='0' >
+<method name='getAirlineBaseCurrency' count='33113' minTime='0' maxTime='33681' totalTime='67813' />
+<method name='publishAirLineRoutes' count='162' minTime='0' maxTime='1120' totalTime='35471' />
+<method name='getAirline' count='7885587' minTime='1' maxTime='44493' totalTime='22431329' />
+<method name='searchAirline' count='59' minTime='1' maxTime='3090' totalTime='44938' />
+<method name='getAirlineRoutes' count='1855864' minTime='0' maxTime='30140' totalTime='6134283' />
+<method name='getAirlines' count='126821' minTime='0' maxTime='36764' totalTime='662259' />
+</InvocationStatistics>
+AvailableCount=30
+MaxSize=30
+Name=StatelessDelegateWrapper
+---------------------------------------
+jboss.j2ee:ear=lcc-app-engine.ear,jar=lcc-engine-reservation-1.0-SNAPSHOT.jar,name=GroupReservationServiceBean,service=EJB3
+StateString=Started
+CreateCount=1559
+CurrentSize=800
+RemoveCount=759
+State=3
+InvokeStats=<InvocationStatistics concurrentCalls='3' >
+<method name='getInterlineAirlineTxnsFromGroupPNR' count='4147' minTime='0' maxTime='31372' totalTime='37986' />
+<method name='getGroupReservation' count='153632' minTime='0' maxTime='35109' totalTime='1003269' />
+<method name='createNewTranactionalReservationProcess' count='2530978' minTime='1' maxTime='30278' totalTime='22452823' />
+<method name='getExistingTranactionalReservationProcess' count='1229683' minTime='0' maxTime='35433' totalTime='7040804' />
+<method name='getLastUserNote' count='126798' minTime='0' maxTime='547' totalTime='185698' />
+<method name='searchInterlineReservationAudit' count='3727' minTime='0' maxTime='22' totalTime='6027' />
+<method name='saveInterlineAirlineTxn' count='3316' minTime='0' maxTime='91' totalTime='5903' />
+<method name='getCarriersForIds' count='6' minTime='2' maxTime='47' totalTime='64' />
+<method name='saveTranactionalReservationProcess' count='1146441' minTime='2' maxTime='30003' totalTime='26104818' />
+<method name='searchUserNotes' count='23' minTime='1' maxTime='6' totalTime='46' />
+<method name='saveGroupReservation' count='5807' minTime='2' maxTime='121' totalTime='33756' />
+<method name='saveGroupReservationInSameContext' count='822' minTime='0' maxTime='15' totalTime='1213' />
+<method name='saveGroupReservationAudit' count='12816' minTime='0' maxTime='952' totalTime='20249' />
+<method name='saveOrUpdate' count='14791' minTime='2' maxTime='29715' totalTime='259435' />
+</InvocationStatistics>
+AvailableCount=27
+MaxSize=30
+Name=StatelessDelegateWrapper
+---------------------------------------
+jboss.j2ee:ear=lcc-app-engine.ear,jar=lcc-engine-master-1.0-SNAPSHOT.jar,name=CryptoServiceBean,service=EJB3
+StateString=Started
+CreateCount=0
+CurrentSize=0
+RemoveCount=0
+State=3
+InvokeStats=<InvocationStatistics concurrentCalls='0' >
+</InvocationStatistics>
+AvailableCount=30
+MaxSize=30
+Name=StatelessDelegateWrapper
+---------------------------------------
+jboss.j2ee:ear=lcc-app-engine.ear,jar=lcc-engine-maxico-1.0-SNAPSHOT.jar,name=ReservationServiceBean,service=EJB3
+StateString=Started
+CreateCount=15619
+CurrentSize=781
+RemoveCount=14838
+State=3
+InvokeStats=<InvocationStatistics concurrentCalls='37' >
+<method name='getETicketInfo' count='6' minTime='22207' maxTime='513193' totalTime='1996879' />
+<method name='makePayment' count='31' minTime='48' maxTime='476' totalTime='6055' />
+<method name='modifyReservationOnly' count='7300' minTime='126' maxTime='78562' totalTime='22216858' />
+<method name='book' count='5678' minTime='17' maxTime='63582' totalTime='22967035' />
+<method name='modifyResQuery' count='532' minTime='249' maxTime='10214' totalTime='553245' />
+<method name='duplicateNameCheck' count='1961' minTime='0' maxTime='173562' totalTime='392370' />
+<method name='searchReservations' count='39572' minTime='8' maxTime='582274' totalTime='68095474' />
+<method name='requoteBalancePayment' count='556' minTime='480' maxTime='33795' totalTime='1541183' />
+<method name='addUserNote' count='340' minTime='13' maxTime='3461' totalTime='25493' />
+<method name='getTicketingInfo' count='5648' minTime='6' maxTime='1045' totalTime='78631' />
+<method name='updateGroupPassengerCoupon' count='39' minTime='14' maxTime='609' totalTime='1680' />
+<method name='createReservationOnly' count='5678' minTime='14' maxTime='63577' totalTime='20928102' />
+<method name='retrieveChargeAdjustmentTypes' count='1114' minTime='0' maxTime='1483' totalTime='7612' />
+<method name='modifyReservation' count='6633' minTime='131' maxTime='79031' totalTime='24115220' />
+<method name='getReservationAudit' count='6379' minTime='3' maxTime='1463' totalTime='60126' />
+<method name='clearSegmentAlerts' count='51' minTime='26' maxTime='193' totalTime='3610' />
+<method name='lccRequoteModifySegments' count='560' minTime='420' maxTime='45028' totalTime='5273044' />
+<method name='autoRefundPassenger' count='16' minTime='685' maxTime='4544' totalTime='24648' />
+<method name='transferSegments' count='38' minTime='891' maxTime='11332' totalTime='149821' />
+<method name='quoteServiceTaxForTicketingRevenue' count='924848' minTime='3' maxTime='174614' totalTime='229120888' />
+<method name='loadPaxContactConfig' count='14061' minTime='0' maxTime='59698' totalTime='584060' />
+<method name='reprotectSegment' count='62' minTime='1785' maxTime='10572' totalTime='187334' />
+<method name='refundPassenger' count='145' minTime='544' maxTime='27075' totalTime='263711' />
+<method name='calculateDiscount' count='1063' minTime='3' maxTime='219' totalTime='73917' />
+<method name='requoteReservationQuery' count='6120' minTime='2' maxTime='30661' totalTime='5892076' />
+<method name='searchReservationByPNR' count='130591' minTime='3' maxTime='173508' totalTime='71491703' />
+<method name='regainCouponControlForMarketingCodeshareBooking' count='13' minTime='7' maxTime='85' totalTime='239' />
+<method name='reconsileDummyReservation' count='27' minTime='291' maxTime='1505' totalTime='19321' />
+<method name='refundPayment' count='2' minTime='582' maxTime='742' totalTime='1324' />
+</InvocationStatistics>
+AvailableCount=-7
+MaxSize=30
+Name=StatelessDelegateWrapper
+---------------------------------------
+jboss.j2ee:ear=lcc-app-engine.ear,jar=lcc-engine-master-1.0-SNAPSHOT.jar,name=CityMasterServiceBean,service=EJB3
+StateString=Started
+CreateCount=777
+CurrentSize=777
+RemoveCount=0
+State=3
+InvokeStats=<InvocationStatistics concurrentCalls='0' >
+<method name='getCity' count='89281' minTime='1' maxTime='414' totalTime='243088' />
+</InvocationStatistics>
+AvailableCount=30
+MaxSize=30
+Name=StatelessDelegateWrapper
+---------------------------------------
+jboss.j2ee:ear=lcc-app-engine.ear,jar=lcc-engine-maxico-1.0-SNAPSHOT.jar,name=MasterDataServiceBean,service=EJB3
+StateString=Started
+CreateCount=3
+CurrentSize=3
+RemoveCount=0
+State=3
+InvokeStats=<InvocationStatistics concurrentCalls='0' >
+<method name='getLccAgreementMasterData' count='3' minTime='3759' maxTime='4097' totalTime='11639' />
+</InvocationStatistics>
+AvailableCount=30
+MaxSize=30
+Name=StatelessDelegateWrapper
+---------------------------------------
+jboss.j2ee:ear=lcc-app-engine.ear,jar=lcc-engine-maxico-1.0-SNAPSHOT.jar,name=PaxCreditServiceBean,service=EJB3
+StateString=Started
+CreateCount=726
+CurrentSize=726
+RemoveCount=0
+State=3
+InvokeStats=<InvocationStatistics concurrentCalls='0' >
+<method name='getPaxCreditAccrossCarriers' count='4560' minTime='66' maxTime='258602' totalTime='2282513' />
+<method name='extendOrReinstateCredits' count='3' minTime='26' maxTime='82' totalTime='165' />
+</InvocationStatistics>
+AvailableCount=30
+MaxSize=30
+Name=StatelessDelegateWrapper
